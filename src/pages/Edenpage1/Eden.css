@@ -1,0 +1,123 @@
+.eden-flex {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 0px 0px;
+}
+
+.eden-text {
+    font-size: 26px;
+    font-weight: 650;
+}
+
+.eden-wel {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.eden-lt {
+    color: gray;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.eden-inputs-txt {
+    padding: 10px 0px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.eden-inputs {
+    width: 440px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 5px 10px;
+}
+
+.workspace-btn {
+    background-color: #8b5cf6;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+
+.workspace-txt {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Pagination css */
+.pindicator {
+    background-color: white;
+    display: flex;
+    margin: 2rem auto 0;
+    width: 100%;
+    margin: 60px 0px;
+  }
+  .pindicator .bullet {
+    flex: 1;
+    position: relative;
+    text-align: center;
+    transform-style: preserve-3d;
+  }
+  .pindicator .bullet::before,
+  .pindicator .bullet::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: .1rem;
+    top: 1rem;
+    transform: translate3d(0,0,-1px);
+  }
+  .pindicator .bullet::before {
+    background-color: lightgray;
+    width: 100%;
+  }
+  .pindicator .bullet::after {
+    background-color: #8b5cf6;
+    opacity: 0;
+  }
+  
+  .pindicator .bullet:first-child::before,
+  .pindicator .bullet:first-child::after {
+    left: 50%;
+    width: 50%;
+  }
+  .pindicator .bullet:last-child::before,
+  .pindicator .bullet:last-child::after {
+    width: 50%;
+  }
+  
+  .pindicator .icon {
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 100%;
+    color: black;
+    cursor: pointer;
+    font-size: 1rem;
+    display: inline-block;
+    height: 2em;
+    line-height: 2;
+    text-align: center;
+    width: 2em;
+  }
+  .pindicator .text {
+    color: lightgray;
+    font-size: .75rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    transition: background-color .25s ease-out;
+  }
+  .pindicator .past .icon {
+    background-color: #8b5cf6;
+    color: white;
+  }
+  
+  .pindicator .past::after,  
+  .pindicator .current::after {
+    opacity: 1;
+  }
+  
+   
