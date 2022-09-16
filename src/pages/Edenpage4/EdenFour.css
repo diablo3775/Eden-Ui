@@ -4,7 +4,7 @@
     align-items: center;
 }
 /* pagination */
-.pindicator-4 {
+/* .pindicator-4 {
     background-color: white;
     display: flex;
     margin: 2rem auto 0;
@@ -101,12 +101,4 @@
 
 
 
-  
-  /* .pindicator-3 .past-3 .icon-3, .pindicator-3 .current-3 .icon-3 {
-    background-color: black;
-    color: white;
-} */
-
-.pindicator-3 .past-3 .text-3, .pindicator-3 .current-3 .text-3, .pindicator-3 .next-3 .text-3 {
-    color: black;
-}
+   */

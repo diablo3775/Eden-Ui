@@ -15,18 +15,18 @@ const navigate = useNavigate();
             <div className='eden-text'>Eden</div>
         </div>
         {/* Pagination */}
-        <div class="pindicator-3">
-         <div class="bullet-3 past-3">
-             <span class="icon-3" onClick={() => navigate('/')}>1</span>
+        <div className="pindicatorr">
+         <div className="bullett pastt">
+             <span className="iconn" onClick={() => navigate('/')}>1</span>
          </div>
-         <div class="bullet-3 past-3">
-             <span class="icon-3" onClick={() => navigate('/eden2')}>2</span>
+         <div className="bullett pastt">
+             <span className="iconn" onClick={() => navigate('/eden2')}>2</span>
          </div>
-         <div class="bullet-3 next-3 future-3">
-             <span class="icon-3" onClick={() => navigate('/eden3')}>3</span>
+         <div className="bullett pastt futuree">
+             <span className="iconn" onClick={() => navigate('/eden3')}>3</span>
          </div>
-         <div class="bullet-3 future-3">
-             <span class="icon-3" onClick={() => navigate('/eden4')}>4</span>
+         <div className="bullett futuree">
+             <span className="iconn" onClick={() => navigate('/eden4')}>4</span>
          </div>
         </div>
         {/* Pagination */}

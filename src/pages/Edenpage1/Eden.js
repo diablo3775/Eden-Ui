@@ -13,18 +13,18 @@ const navigate = useNavigate();
             <div className='eden-text'>Eden</div>
         </div>
         {/* Pagination */}
-        <div class="pindicator">
-         <div class="bullet past">
-             <span class="icon" onClick={() => navigate('/')}>1</span>
+        <div className="pindicator">
+         <div className="bullet past">
+             <span className="icon" onClick={() => navigate('/')}>1</span>
          </div>
-         <div class="bullet current">
-             <span class="icon" onClick={() => navigate('/eden2')}>2</span>
+         <div className="bullet current">
+             <span className="icon" onClick={() => navigate('/eden2')}>2</span>
          </div>
-         <div class="bullet next future">
-             <span class="icon" onClick={() => navigate('/eden3')}>3</span>
+         <div className="bullet next future">
+             <span className="icon" onClick={() => navigate('/eden3')}>3</span>
          </div>
-         <div class="bullet future">
-             <span class="icon" onClick={() => navigate('/eden4')}>4</span>
+         <div className="bullet future">
+             <span className="icon" onClick={() => navigate('/eden4')}>4</span>
          </div>
         </div>
         {/* Pagination */}
@@ -44,6 +44,7 @@ const navigate = useNavigate();
             <div className='workspace-txt'>Create Workspace</div>
         </div>
     </div>
+
   )
 }
 
